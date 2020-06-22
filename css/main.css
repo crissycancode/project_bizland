@@ -1,3 +1,8 @@
+body {
+  background: rgba(63, 57, 77, 0.1);
+  display: flex;
+  flex-direction: column;
+}
 .main-header {
     background: url(../img/showcase.jpg);
     min-height: 600px;
@@ -19,10 +24,7 @@
 }
 
 .scroll-icon{
-    /* position: absolute; */
-    /* position: fixed; */
     position: sticky;
-    /* bottom: 5%; */
     margin-top: 10%;
     left: 47%;
     opacity: 0.5;
@@ -31,9 +33,9 @@
 
 .main-header .showcase {
     padding-top: 110px;
-    
 }
 
+/* ----- */
 .side-brand{
     height: fit-content;
     margin-top: 10px;
@@ -41,24 +43,25 @@
     font-size: 38px;
     text-align: center;
 }
-.divider{
+.nav-wrapper .divider{
     height: 50px;
 }
 
 .section-services{
     padding-top: 0px;
 }
-.section-services i {
-    margin-top:30px;
+
+.section-services .col{
+  min-height: 300px;
+  padding-top: 30px;
 }
 
-.section-services p{
-    margin-bottom: 30px;
-}
-/* .section-services h4{
-    margin: 0px;
-} */
+.section-about{
+  padding-top: 0px;
+  min-height: 600px;
 
-.icon-large i{
-  size: large;
 }
+.section-about .col{
+  padding-top: 50px;
+}
+
