@@ -1,0 +1,64 @@
+.main-header {
+    background: url(../img/showcase.jpg);
+    min-height: 600px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+
+}
+
+.primary-overlay {
+    background: rgba(63, 57, 77, 0.7);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.scroll-icon{
+    /* position: absolute; */
+    /* position: fixed; */
+    position: sticky;
+    /* bottom: 5%; */
+    margin-top: 10%;
+    left: 47%;
+    opacity: 0.5;
+    font-size: large;
+}
+
+.main-header .showcase {
+    padding-top: 110px;
+    
+}
+
+.side-brand{
+    height: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 38px;
+    text-align: center;
+}
+.divider{
+    height: 50px;
+}
+
+.section-services{
+    padding-top: 0px;
+}
+.section-services i {
+    margin-top:30px;
+}
+
+.section-services p{
+    margin-bottom: 30px;
+}
+/* .section-services h4{
+    margin: 0px;
+} */
+
+.icon-large i{
+  size: large;
+}
