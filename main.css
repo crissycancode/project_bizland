@@ -38,7 +38,7 @@
     font-size: 38px;
     text-align: center;
 }
-.divider{
+.nav-wrapper .divider{
     height: 50px;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .section-services .col{
-  height: 300px;
+  min-height: 300px;
   padding-top: 30px;
 }
 
