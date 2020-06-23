@@ -57,11 +57,11 @@ body {
 }
 
 .section-about{
-  padding-top: 0px;
   min-height: 600px;
-
-}
-.section-about .col{
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
+#style-about{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
